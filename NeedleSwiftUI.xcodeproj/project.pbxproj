@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD350BD26A9807F00F0C60F /* NeedleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD350BC26A9807F00F0C60F /* NeedleSwiftUIApp.swift */; };
+		BCD350BF26A9807F00F0C60F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD350BE26A9807F00F0C60F /* ContentView.swift */; };
+		BCD350C126A9807F00F0C60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD350C026A9807F00F0C60F /* Assets.xcassets */; };
+		BCD350C426A9807F00F0C60F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD350C326A9807F00F0C60F /* Preview Assets.xcassets */; };
+		BCD350CF26A9808000F0C60F /* NeedleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD350CE26A9808000F0C60F /* NeedleSwiftUITests.swift */; };
+		BCD350DA26A9808000F0C60F /* NeedleSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD350D926A9808000F0C60F /* NeedleSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD350CB26A9808000F0C60F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD350B126A9807F00F0C60F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD350B826A9807F00F0C60F;
+			remoteInfo = NeedleSwiftUI;
+		};
+		BCD350D626A9808000F0C60F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD350B126A9807F00F0C60F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD350B826A9807F00F0C60F;
+			remoteInfo = NeedleSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCD350B926A9807F00F0C60F /* NeedleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD350BC26A9807F00F0C60F /* NeedleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSwiftUIApp.swift; sourceTree = "<group>"; };
+		BCD350BE26A9807F00F0C60F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCD350C026A9807F00F0C60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD350C326A9807F00F0C60F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCD350C526A9807F00F0C60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD350CA26A9808000F0C60F /* NeedleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeedleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD350CE26A9808000F0C60F /* NeedleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSwiftUITests.swift; sourceTree = "<group>"; };
+		BCD350D026A9808000F0C60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD350D526A9808000F0C60F /* NeedleSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeedleSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD350D926A9808000F0C60F /* NeedleSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSwiftUIUITests.swift; sourceTree = "<group>"; };
+		BCD350DB26A9808000F0C60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD350B626A9807F00F0C60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD350C726A9808000F0C60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD350D226A9808000F0C60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD350B026A9807F00F0C60F = {
+			isa = PBXGroup;
+			children = (
+				BCD350BB26A9807F00F0C60F /* NeedleSwiftUI */,
+				BCD350CD26A9808000F0C60F /* NeedleSwiftUITests */,
+				BCD350D826A9808000F0C60F /* NeedleSwiftUIUITests */,
+				BCD350BA26A9807F00F0C60F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD350BA26A9807F00F0C60F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD350B926A9807F00F0C60F /* NeedleSwiftUI.app */,
+				BCD350CA26A9808000F0C60F /* NeedleSwiftUITests.xctest */,
+				BCD350D526A9808000F0C60F /* NeedleSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD350BB26A9807F00F0C60F /* NeedleSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BCD350BC26A9807F00F0C60F /* NeedleSwiftUIApp.swift */,
+				BCD350BE26A9807F00F0C60F /* ContentView.swift */,
+				BCD350C026A9807F00F0C60F /* Assets.xcassets */,
+				BCD350C526A9807F00F0C60F /* Info.plist */,
+				BCD350C226A9807F00F0C60F /* Preview Content */,
+			);
+			path = NeedleSwiftUI;
+			sourceTree = "<group>";
+		};
+		BCD350C226A9807F00F0C60F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCD350C326A9807F00F0C60F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCD350CD26A9808000F0C60F /* NeedleSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD350CE26A9808000F0C60F /* NeedleSwiftUITests.swift */,
+				BCD350D026A9808000F0C60F /* Info.plist */,
+			);
+			path = NeedleSwiftUITests;
+			sourceTree = "<group>";
+		};
+		BCD350D826A9808000F0C60F /* NeedleSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD350D926A9808000F0C60F /* NeedleSwiftUIUITests.swift */,
+				BCD350DB26A9808000F0C60F /* Info.plist */,
+			);
+			path = NeedleSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD350B826A9807F00F0C60F /* NeedleSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD350DE26A9808000F0C60F /* Build configuration list for PBXNativeTarget "NeedleSwiftUI" */;
+			buildPhases = (
+				BCD350B526A9807F00F0C60F /* Sources */,
+				BCD350B626A9807F00F0C60F /* Frameworks */,
+				BCD350B726A9807F00F0C60F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeedleSwiftUI;
+			productName = NeedleSwiftUI;
+			productReference = BCD350B926A9807F00F0C60F /* NeedleSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD350C926A9808000F0C60F /* NeedleSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD350E126A9808000F0C60F /* Build configuration list for PBXNativeTarget "NeedleSwiftUITests" */;
+			buildPhases = (
+				BCD350C626A9808000F0C60F /* Sources */,
+				BCD350C726A9808000F0C60F /* Frameworks */,
+				BCD350C826A9808000F0C60F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD350CC26A9808000F0C60F /* PBXTargetDependency */,
+			);
+			name = NeedleSwiftUITests;
+			productName = NeedleSwiftUITests;
+			productReference = BCD350CA26A9808000F0C60F /* NeedleSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD350D426A9808000F0C60F /* NeedleSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD350E426A9808000F0C60F /* Build configuration list for PBXNativeTarget "NeedleSwiftUIUITests" */;
+			buildPhases = (
+				BCD350D126A9808000F0C60F /* Sources */,
+				BCD350D226A9808000F0C60F /* Frameworks */,
+				BCD350D326A9808000F0C60F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD350D726A9808000F0C60F /* PBXTargetDependency */,
+			);
+			name = NeedleSwiftUIUITests;
+			productName = NeedleSwiftUIUITests;
+			productReference = BCD350D526A9808000F0C60F /* NeedleSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD350B126A9807F00F0C60F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BCD350B826A9807F00F0C60F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					BCD350C926A9808000F0C60F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BCD350B826A9807F00F0C60F;
+					};
+					BCD350D426A9808000F0C60F = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BCD350B826A9807F00F0C60F;
+					};
+				};
+			};
+			buildConfigurationList = BCD350B426A9807F00F0C60F /* Build configuration list for PBXProject "NeedleSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD350B026A9807F00F0C60F;
+			productRefGroup = BCD350BA26A9807F00F0C60F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD350B826A9807F00F0C60F /* NeedleSwiftUI */,
+				BCD350C926A9808000F0C60F /* NeedleSwiftUITests */,
+				BCD350D426A9808000F0C60F /* NeedleSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD350B726A9807F00F0C60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD350C426A9807F00F0C60F /* Preview Assets.xcassets in Resources */,
+				BCD350C126A9807F00F0C60F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD350C826A9808000F0C60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD350D326A9808000F0C60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD350B526A9807F00F0C60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD350BF26A9807F00F0C60F /* ContentView.swift in Sources */,
+				BCD350BD26A9807F00F0C60F /* NeedleSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD350C626A9808000F0C60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD350CF26A9808000F0C60F /* NeedleSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD350D126A9808000F0C60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD350DA26A9808000F0C60F /* NeedleSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD350CC26A9808000F0C60F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD350B826A9807F00F0C60F /* NeedleSwiftUI */;
+			targetProxy = BCD350CB26A9808000F0C60F /* PBXContainerItemProxy */;
+		};
+		BCD350D726A9808000F0C60F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD350B826A9807F00F0C60F /* NeedleSwiftUI */;
+			targetProxy = BCD350D626A9808000F0C60F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BCD350DC26A9808000F0C60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCD350DD26A9808000F0C60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD350DF26A9808000F0C60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedleSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = VHGRSDC2NJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NeedleSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.mikdev.NeedleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD350E026A9808000F0C60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedleSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = VHGRSDC2NJ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NeedleSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.mikdev.NeedleSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCD350E226A9808000F0C60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHGRSDC2NJ;
+				INFOPLIST_FILE = NeedleSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.mikdev.NeedleSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeedleSwiftUI.app/NeedleSwiftUI";
+			};
+			name = Debug;
+		};
+		BCD350E326A9808000F0C60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHGRSDC2NJ;
+				INFOPLIST_FILE = NeedleSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.mikdev.NeedleSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeedleSwiftUI.app/NeedleSwiftUI";
+			};
+			name = Release;
+		};
+		BCD350E526A9808000F0C60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHGRSDC2NJ;
+				INFOPLIST_FILE = NeedleSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.mikdev.NeedleSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeedleSwiftUI;
+			};
+			name = Debug;
+		};
+		BCD350E626A9808000F0C60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHGRSDC2NJ;
+				INFOPLIST_FILE = NeedleSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = eu.mikdev.NeedleSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeedleSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD350B426A9807F00F0C60F /* Build configuration list for PBXProject "NeedleSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD350DC26A9808000F0C60F /* Debug */,
+				BCD350DD26A9808000F0C60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD350DE26A9808000F0C60F /* Build configuration list for PBXNativeTarget "NeedleSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD350DF26A9808000F0C60F /* Debug */,
+				BCD350E026A9808000F0C60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD350E126A9808000F0C60F /* Build configuration list for PBXNativeTarget "NeedleSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD350E226A9808000F0C60F /* Debug */,
+				BCD350E326A9808000F0C60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD350E426A9808000F0C60F /* Build configuration list for PBXNativeTarget "NeedleSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD350E526A9808000F0C60F /* Debug */,
+				BCD350E626A9808000F0C60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD350B126A9807F00F0C60F /* Project object */;
+}
