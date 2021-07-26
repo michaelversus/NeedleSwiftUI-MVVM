@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5622A2D427990199CAE4E8B7 /* Pods_NeedleSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E7D85D3605DD20B891D230 /* Pods_NeedleSwiftUI.framework */; };
+		BC93D2F826AEBCF2003B3D08 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BC93D2F726AEBCF2003B3D08 /* README.md */; };
 		BCD350BD26A9807F00F0C60F /* NeedleSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD350BC26A9807F00F0C60F /* NeedleSwiftUIApp.swift */; };
 		BCD350C126A9807F00F0C60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD350C026A9807F00F0C60F /* Assets.xcassets */; };
 		BCD350C426A9807F00F0C60F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD350C326A9807F00F0C60F /* Preview Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		605094BACAF21F44216F65B6 /* Pods-NeedleSwiftUI-NeedleSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeedleSwiftUI-NeedleSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeedleSwiftUI-NeedleSwiftUIUITests/Pods-NeedleSwiftUI-NeedleSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		60E7D85D3605DD20B891D230 /* Pods_NeedleSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeedleSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		714478E9B2481FDC139C2188 /* Pods-NeedleSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeedleSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-NeedleSwiftUITests/Pods-NeedleSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BC93D2F726AEBCF2003B3D08 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BCD350B926A9807F00F0C60F /* NeedleSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedleSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD350BC26A9807F00F0C60F /* NeedleSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleSwiftUIApp.swift; sourceTree = "<group>"; };
 		BCD350C026A9807F00F0C60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		BCD350B026A9807F00F0C60F = {
 			isa = PBXGroup;
 			children = (
+				BC93D2F726AEBCF2003B3D08 /* README.md */,
 				BCD350BB26A9807F00F0C60F /* NeedleSwiftUI */,
 				BCD350CD26A9808000F0C60F /* NeedleSwiftUITests */,
 				BCD350D826A9808000F0C60F /* NeedleSwiftUIUITests */,
@@ -389,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC93D2F826AEBCF2003B3D08 /* README.md in Resources */,
 				BCD350C426A9807F00F0C60F /* Preview Assets.xcassets in Resources */,
 				BCD350C126A9807F00F0C60F /* Assets.xcassets in Resources */,
 			);
