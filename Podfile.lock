@@ -1,0 +1,16 @@
+PODS:
+  - NeedleFoundation (0.17.2)
+
+DEPENDENCIES:
+  - NeedleFoundation
+
+SPEC REPOS:
+  trunk:
+    - NeedleFoundation
+
+SPEC CHECKSUMS:
+  NeedleFoundation: 36cfaea9ae9eb527a796f5c1df19296c722666b8
+
+PODFILE CHECKSUM: de8370e49d1e1c4319d3990dbec2d34703eaa085
+
+COCOAPODS: 1.10.1

@@ -6,12 +6,18 @@
 //
 
 import SwiftUI
+import NeedleFoundation
 
 @main
 struct NeedleSwiftUIApp: App {
+
+    init() {
+        registerProviderFactories()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootComponent().rootView
         }
     }
 }

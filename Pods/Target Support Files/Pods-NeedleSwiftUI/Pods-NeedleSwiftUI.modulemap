@@ -1,0 +1,6 @@
+framework module Pods_NeedleSwiftUI {
+  umbrella header "Pods-NeedleSwiftUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
